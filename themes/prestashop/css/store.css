@@ -1,0 +1,74 @@
+#infos_store > div {
+	float: left;
+	width: 31%;
+	border: 3px solid #aaa;
+	border-radius: 5px;
+	margin: 5px;
+    box-shadow: 0 0 5px #aaa;
+}
+
+#infos_store > div > h2 {
+	background: #aaa;
+	color: #000;
+	margin-top: 0;
+	padding: 0 5px;
+	text-shadow: none;
+	text-align: center;
+}
+
+#infos_store > div > p  {
+	clear: both;
+}
+
+#infos_store > div > p > label {
+	font-weight: bold;
+	width: 80px;
+	float: left;
+}
+
+#infos_store > div > p > span {
+	float: left;
+}
+
+#infos_store > div > p > span.clear {
+	float: none;
+	clear: both;
+}
+
+#infos_store div.photo {
+	clear: both;
+	width: 100%;
+	border: none;
+	border-radius: none;
+	margin: 0;
+	box-shadow: none;
+	text-align: center;
+	margin: 10px 0;
+}
+
+#infos_store div.address .codepostal, #infos_store div.address .city {
+	float: left;
+	clear: none;
+}
+
+#infos_store div.address {
+	width: 200px;
+}
+
+#infos_store div.contact {
+	width: 290px;
+}
+
+#infos_store div.horaires {
+	width: 250px;
+}
+
+#infos_store div.address .country {
+	clear: both;
+}
+
+@media all and (max-width: 1200px) {
+	#infos_store div.address {
+		width: 160px;
+	}
+}

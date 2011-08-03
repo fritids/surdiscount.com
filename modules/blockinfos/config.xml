@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>blockinfos</name>
+	<displayName>Info block</displayName>
+	<version>1.1</version>
+	<description>Adds a block with several information links</description>
+	<author></author>
+	<tab>Blocks</tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>

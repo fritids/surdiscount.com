@@ -1,0 +1,91 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+body {
+    
+    margin: auto;
+}
+
+
+form {
+
+    margin: 0 auto;
+    width: 588px; /*388px*/
+}
+
+form div {
+    
+    width: 272px; /*160px*/
+    height: 40px;
+    float: left;
+    margin-bottom: 25px;
+    position: relative;
+    padding: 10px;
+}
+
+#registrationContest label {
+    
+    display: block;
+}
+
+/*
+#registrationContest label.error {
+
+    display: none;
+    background: red;
+    position: absolute;
+    right: -10px;
+    top: 0;
+    z-index: 1000;
+}
+*/
+
+#registrationContest label.error {
+    
+    display: block;
+    color: red;
+    font-size: 12px;
+    font-style: italic;
+}
+
+#registrationContest input[type=radio] {
+    
+    width: auto;
+}
+
+#registrationContest input, #registrationContest textarea  {
+    
+    border: 1px solid black;
+    -webkit-box-shadow: 0 0 5px #fff;
+    width: 150px;
+}
+
+#registrationContest input:focus, #registrationContest textarea:focus{
+    
+    border: 1px solid black;
+    -webkit-box-shadow: 0 0 5px #000;
+}
+
+#registrationContest input.error, #registrationContest textarea.error {
+    
+    border: 1px solid red;
+    -webkit-box-shadow: 0 0 5px #f00;
+}
+
+#successful {
+    
+    background: green;
+    text-height: max-size;
+}
+
+#participate {
+    
+    width: 500px;
+    line-height: 500px;
+    margin: auto;
+}

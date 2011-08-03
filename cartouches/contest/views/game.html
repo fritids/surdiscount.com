@@ -1,0 +1,62 @@
+
+<form action="controllers/game.php" method="post" id="registrationContest">
+    <fieldset>
+        <div>
+            <label><input type="radio" id="sexh" class="required" validate="required:true" name="sex" value="h" />&nbsp;Mr :</label>
+            <label><input type="radio" id="sexf" class="required" name="sex" value="f" />&nbsp;Mme:</label>
+            <label for="sex" class="error">Please select your gender</label> 
+        </div> 
+        
+        <div>
+            <label for="lastname">Nom : </label>
+            <input type="text" id="lastname" class="required" name="lastname"  minlength="2" />
+        </div>
+        
+        <div>
+            <label for="firstname">Prénom : </label>
+            <input type="text" id="firstname" class="required" name="firstname"  />
+        </div>
+        
+        <div>
+            <label for="email">Email : </label>
+            <input type="text" id="email" class="required email" name="email" />
+        </div>
+        
+        <div>
+            <label for="adress">Adresse : </label>
+            <textarea id="adress" class="required" name="adress"></textarea>
+        </div>
+        
+        <div>
+            <label for="zip_code">Code postal : </label>
+            <input type="text" id="zip_code" class="required zip_code" name="zip_code" />
+        </div>
+        
+        <div>
+            <label for="city">Ville : </label>
+            <input type="text" id="city" class="required" name="city"  />
+        </div>
+        
+        <div>
+            <label for="phone">Téléphone : </label>
+            <input type="text" id="phone" class="phone" name="phone"  />
+        </div>
+        
+        <div>
+            <label for="year_of_birth">Année de naissance : </label>
+            <input type="text" id="year_of_birth" class="required" name="year_of_birth"  />
+        </div>
+        
+        <div>
+            <label for="newsletter">Recevoir les newsletters :
+                <input type="checkbox" id="newsletter" name="newsletter" checked="yes" />
+            </label>
+        </div>
+    
+    </fieldset>
+    <div>
+        <input type="submit" value="Envoyer" />
+    </div>
+</form>
+
+<div id="result"></div>

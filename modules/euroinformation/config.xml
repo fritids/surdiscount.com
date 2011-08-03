@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>euroinformation</name>
+	<displayName>Euro Information</displayName>
+	<version>1.0</version>
+	<description>Module de Paiement Bancaire Euro Information</description>
+	<author></author>
+	<tab>payments_gateways</tab>
+	<confirmUninstall>Etes vous sur de vouloir supprimer vos details ?</confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>

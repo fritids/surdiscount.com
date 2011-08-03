@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>homepromo</name>
+	<displayName>Promo Products on the homepage</displayName>
+	<version>0.9</version>
+	<description>Displays Promo Products in the middle of your homepage</description>
+	<author></author>
+	<tab>Tools</tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>

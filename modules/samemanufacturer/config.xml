@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>samemanufacturer</name>
+	<displayName>Same Manufacturer</displayName>
+	<version>0.1</version>
+	<description>Product in the same manufacturer</description>
+	<author></author>
+	<tab>Products</tab>
+	<is_configurable>0</is_configurable>
+	<need_instance>1</need_instance>
+</module>

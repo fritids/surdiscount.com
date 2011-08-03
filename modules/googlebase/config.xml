@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>googlebase</name>
+	<displayName>Google Base Feed Products</displayName>
+	<version>0.6.3.1</version>
+	<description>Generate your products feed for Google Base. www.ecartservice.net</description>
+	<author></author>
+	<tab>Tools</tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>blockcoupon</name>
+	<displayName>coupon block</displayName>
+	<version>0.9</version>
+	<description>Displays a global coupon</description>
+	<author></author>
+	<tab>Blocks</tab>
+	<is_configurable>0</is_configurable>
+	<need_instance>1</need_instance>
+</module>

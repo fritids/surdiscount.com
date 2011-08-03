@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>orlique</name>
+	<displayName>Orlique</displayName>
+	<version>1.0.1</version>
+	<description>Silbersaiten Order Manager</description>
+	<tab>Silbersaiten</tab>
+	<is_configurable>0</is_configurable>
+	<need_instance>1</need_instance>
+</module>

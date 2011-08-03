@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>blocktelephone</name>
+	<displayName>telephone block</displayName>
+	<version>0.9</version>
+	<description>Displays informations for contact the compagny</description>
+	<author></author>
+	<tab>Blocks</tab>
+	<is_configurable>0</is_configurable>
+	<need_instance>1</need_instance>
+</module>
